@@ -6,8 +6,6 @@ from time import sleep
 
 ALPHA = ascii_letters + " " # "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
-
-
 font_list = [
     "Copperplate",
     "Helvetica",
