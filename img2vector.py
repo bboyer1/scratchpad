@@ -17,7 +17,7 @@ for counter, file in enumerate(list_of_images):
     # converting to its binary form
     _, binary = cv2.threshold(img, 0, 1, cv2.THRESH_BINARY)
     hyper_vector = list(concatenate(binary).flat) # builds the hypervector
-    print(f'File number: {counter}')
+    print(f'File count: {counter}')
     hyper_vectors[file] = hyper_vector
 
 w = csv.writer(open("hypervectors.csv", "w"))
