@@ -46,7 +46,6 @@ def build_img(letter, counter, fonttype, fontsize=12):
     img.save(f'images/{letter}_{counter}_{fonttype}.jpg')
 
 for font in font_list:
-    sleep(0.5)
     for counter, letter in enumerate(ALPHA):
         build_img(letter, counter, font)
 
