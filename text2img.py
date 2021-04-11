@@ -37,12 +37,12 @@ ALPHA = ascii_letters + " " # "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVW
 # ]
 
 
-def build_img(letter, counter, fonttype="Arial", fontsize=12):
+def build_img(letter, counter, fonttype="Arial", fontsize=24):
     font = ImageFont.truetype(fonttype, fontsize)
-    img = Image.new('RGB', (30, 30), color='white') # 30x30 pixels
-    ImageDraw.Draw(img).text((10, 10), letter, fill=(0, 0, 0), font=font) # letter starts at pixel 10x10
+    img = Image.new('RGB', (32, 32), color='white') # 30x30 pixels
+    ImageDraw.Draw(img).text((8, 4), letter, fill=(0, 0, 0), font=font) # letter starts at pixel 10x10
     return img
-    
+
 
 #for font in font_list:
 for counter, letter in enumerate(ALPHA):
