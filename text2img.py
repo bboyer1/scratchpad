@@ -6,35 +6,35 @@ from time import sleep
 
 ALPHA = ascii_letters + " " # "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
-# FONT_LIST = [
-#     "Copperplate",
-#     "Helvetica",
-#     "Arial",
-#     "Avenir",
-#     "Chalkboard",
-#     "Chalkduster",
-#     "Charter",
-#     "Courier",
-#     "Didot",
-#     "Futura",
-#     "Geneva",
-#     "Georgia",
-#     "Luminari",
-#     "Menlo",
-#     "Monaco",
-#     "Noteworthy",
-#     "Impact",
-#     "Optima",
-#     "Palatino",
-#     "Papyrus",
-#     "Phosphate",
-#     "Skia",
-#     "Tahoma",
-#     "Times",
-#     "Times New Roman",
-#     "Verdana",
-#     "Zapfino"
-# ]
+FONT_LIST = [
+    "Copperplate",
+    "Helvetica",
+    "Arial",
+    "Avenir",
+    "Chalkboard",
+    "Chalkduster",
+    "Charter",
+    "Courier",
+    "Didot",
+    "Futura",
+    "Geneva",
+    "Georgia",
+    "Luminari",
+    "Menlo",
+    "Monaco",
+    "Noteworthy",
+    "Impact",
+    "Optima",
+    "Palatino",
+    "Papyrus",
+    "Phosphate",
+    "Skia",
+    "Tahoma",
+    "Times",
+    "Times New Roman",
+    "Verdana",
+    "Zapfino"
+]
 
 
 def build_img(letter, counter, fonttype="Arial", fontsize=24):
@@ -44,10 +44,10 @@ def build_img(letter, counter, fonttype="Arial", fontsize=24):
     return img
 
 
-# for font in FONT_LIST:
-for counter, letter in enumerate(ALPHA):
-    img = build_img(letter, counter)# , font)
-    img.save(f'32x32/{letter}_{counter}_.jpg')
+for font in FONT_LIST:
+    for counter, letter in enumerate(ALPHA):
+        img = build_img(letter, counter, font)
+        img.save(f'images/{letter}_{counter}_{font}.jpg')
 
 
-#print(f'Image creation complete for {len(FONT_LIST)} fonts')
+print(f'Image creation complete for {len(FONT_LIST)} fonts')
