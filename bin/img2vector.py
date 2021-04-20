@@ -27,21 +27,21 @@ for counter, file in enumerate(list_of_images):
     hyper_vectors[file] = hyper_vector
     #print(list2string(hyper_vector))
 
-# w = csv.writer(open("hypervectors.csv", "w"))
-# for key, val in hyper_vectors.items():
-#     w.writerow([key, val])
+# # # w = csv.writer(open("hypervectors.csv", "w"))
+# # # for key, val in hyper_vectors.items():
+# # #     w.writerow([key, val])
 
-# with open("hypervectors.data", "w") as hv_file:
-#     for key, val in hyper_vectors.items():
-#         hv_file.write(key)
-#         hv_file.write("\n")
-#         hv_file.write(val)
-#         hv_file.write("\n\n\n")
-
-with open("full_data_set.data", "w") as hv_file:
+with open("hypervectors.data", "w") as hv_file:
     for key, val in hyper_vectors.items():
         hv_file.write(key)
         hv_file.write("\n")
         hv_file.write(val)
         hv_file.write("\n\n\n")
+
+# with open("full_data_set.data", "w") as hv_file:
+#     for key, val in hyper_vectors.items():
+#         hv_file.write(key)
+#         hv_file.write("\n")
+#         hv_file.write(val)
+#         hv_file.write("\n\n\n")
 

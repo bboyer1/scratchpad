@@ -2,7 +2,6 @@
 
 from PIL import Image, ImageDraw, ImageFont
 from string import ascii_letters
-from time import sleep
 
 ALPHA = ascii_letters + " " # "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
