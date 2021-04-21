@@ -6,24 +6,26 @@ from random import randint
 
 
 # Fixture for dimension size of 10
-feature_set = [
-    '1111110101', '1100100100', '1111000110', '1001111001', '0111000010',
-    '1111001101', '1100011100', '0001111010', '0110110101', '0101011010',
-    '1111110101', '0010111100', '1011110101', '1001111000', '0011111100', 
-    '0001000010', '0101001000', '0001001101', '1111001001', '0111111011',
-    '1111110010', '1001100011', '0101100111', '1011110010', '1000010111',
-    '1110111110', '1001011100', '0100011000', '0111111111', '0111011001',
-    '0001111010', '0001101001', '0001011010', '1011010001', '1010010110'
-]
+# feature_set = [
+#     '1111110101', '1100100100', '1111000110', '1001111001', '0111000010',
+#     '1111001101', '1100011100', '0001111010', '0110110101', '0101011010',
+#     '1111110101', '0010111100', '1011110101', '1001111000', '0011111100', 
+#     '0001000010', '0101001000', '0001001101', '1111001001', '0111111011',
+#     '1111110010', '1001100011', '0101100111', '1011110010', '1000010111',
+#     '1110111110', '1001011100', '0100011000', '0111111111', '0111011001',
+#     '0001111010', '0001101001', '0001011010', '1011010001', '1010010110'
+# ]
 
 
-DIM = 10 # Length of HV
-THRESHOLD = 18 # 5x7 = 35pixels, then 35+1/2
+DIM = 100 # Length of HV
+THRESHOLD = 513 # 32x32 = 1024pixels, then 512+1 for floor division
 
 # Pull images from directory
-directory = "test"
-path = f"/Users/Bret/Desktop/text-to-image/src/{directory}"
+directory = "imagesof32s"
+path = f"/Users/Bret/Desktop/text-to-image/src/test/{directory}"
 list_of_images = listdir(path)
+
+print(list_of_images)
 #print(f"{len(list_of_images)} files will be converted to binary")
 
 def list2string(list_obj):
@@ -56,7 +58,6 @@ def encode(pixel_feature, hypervector):
 def threshold(pixel_list, dim=DIM, threshold_val=THRESHOLD):
     """
     Takes in a pixel_list to iterate through the pixel values
-
     """
     threshold_elem = list()
     for elem in range(dim):
@@ -65,7 +66,7 @@ def threshold(pixel_list, dim=DIM, threshold_val=THRESHOLD):
             sum = sum + int(pixel[elem])
         
         threshold_elem.append(sum)
-    print(f"Accumulation of values = {threshold_elem}")
+    #print(f"Accumulation of values = {threshold_elem}")
     
     threshold = ""
     for num in threshold_elem:
@@ -74,12 +75,15 @@ def threshold(pixel_list, dim=DIM, threshold_val=THRESHOLD):
 
     return threshold
 
-# def feature_set(num_of_pixels=35, dim=DIM):
-#     pixel_set = list()
-#     for x in range(num_of_pixels):
-#         hv = [randint(0,1) for n in range(0, dim)]
-#         pixel_set.append(list2string(hv))
-#     return pixel_set
+def feature_set(num_of_pixels=1024, dim=DIM):
+    pixel_set = list()
+    for x in range(num_of_pixels):
+        hv = [randint(0,1) for n in range(0, dim)]
+        pixel_set.append(list2string(hv))
+
+    with open(f"feature_set_{dim}.txt", "w") as ff:
+        ff.write(str(pixel_set))
+    return pixel_set
 
 def main():
     ### Convert all images to binary form
@@ -91,25 +95,35 @@ def main():
         _, binary = cv2.threshold(img, 127, 1, cv2.THRESH_BINARY_INV)
 
         # builds the hypervector
-        hyper_vector = list(np.concatenate(binary).flat) 
+        hyper_vector = list(np.concatenate(binary).flat)
         hyper_vector = list2string(hyper_vector)
         hyper_vectors[file] = hyper_vector
 
-    #pixel_hvs = feature_set()
+    pixel_hvs = feature_set()
 
-    print("Feature_set = " + str(feature_set))
 
+    
+    #print("Feature_set = " + str(pixel_hvs))
+
+    hvs = dict()
     ### Loops through all hvs to encode and threshold
     for key in hyper_vectors:
-        _pixel_hv = feature_set.copy()
+        _pixel_hv = pixel_hvs.copy()
 
-        print(f"HV {key}\nInput: {hyper_vectors[key]}")
-        mylist = encode(_pixel_hv, hyper_vectors[key])
-        print(f"After Thresholding: {threshold(mylist)}\n")
-
+        #print(f"HV {key}\nInput: {hyper_vectors[key]}")
+        encode_list = encode(_pixel_hv, hyper_vectors[key])
+        #print(f"After Thresholding: {threshold(encode_list)}\n")
         
+        hv = threshold(encode_list)
+
+        hvs[key] = hv
+
+    print(hvs)
+
+
+    with open("hv_files_abc.txt", "w") as fn:
+        #fn.write(str(pixel_hvs))
+        fn.write(str(hvs))
 
 if __name__ == '__main__':
     main()
-
-
