@@ -12,8 +12,7 @@ directory = "imagesof32s"
 path = f"/Users/Bret/Desktop/text-to-image/src/test/{directory}"
 list_of_images = listdir(path)
 
-#print(list_of_images)
-#print(f"{len(list_of_images)} files will be converted to binary")
+output_dir = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
 
 def list2string(list_obj):
     """
@@ -68,22 +67,28 @@ def feature_set(num_of_pixels=1024, dim=DIM):
         hv = [randint(0,1) for n in range(0, dim)]
         pixel_set.append(list2string(hv))
 
-    with open(f"feature_set_{dim}.txt", "w") as ff:
+    with open(f"{output_dir}/feature_set_{dim}.txt", "w") as ff:
         ff.write(str(pixel_set))
     return pixel_set
+
+
+def convert_img(fn):
+    img = cv2.imread(fn, 0)
+
+    # converting to its binary form
+    _, binary = cv2.threshold(img, 127, 1, cv2.THRESH_BINARY_INV)
+
+    # builds the hypervector
+    hyper_vector = list(np.concatenate(binary).flat)
+    return list2string(hyper_vector)
+
 
 def main():
     ### Convert all images to binary form
     hyper_vectors = dict()
     for file in list_of_images:
-        img = cv2.imread(path+"/"+file, 0)
-
-        # converting to its binary form
-        _, binary = cv2.threshold(img, 127, 1, cv2.THRESH_BINARY_INV)
-
-        # builds the hypervector
-        hyper_vector = list(np.concatenate(binary).flat)
-        hyper_vector = list2string(hyper_vector)
+        fn = path+"/"+file
+        hyper_vector = convert_img(fn)
         hyper_vectors[file] = hyper_vector
 
     pixel_hvs = feature_set()
@@ -107,7 +112,7 @@ def main():
     #print(hvs)
 
 
-    with open(f"hv_files_abc_{DIM}.txt", "w") as fn:
+    with open(f"{output_dir}/hv_files_abc_{DIM}.txt", "w") as fn:
         #fn.write(str(pixel_hvs))
         fn.write(str(hvs))
 
