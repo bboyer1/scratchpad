@@ -7,14 +7,14 @@ from os import listdir
 from random import randint
 import sys
 
-DIM = 10 # Length of HV
+DIM = 10000 # Length of HV
 THRESHOLD = 513 # 32x32 = 1024pixels, then 512+1 for floor division
 
 # Pull images from directory
 directory = "train_img_3"
 path = f"/Users/Bret/Desktop/text-to-image/src/{directory}"
 list_of_images = listdir(path)
-#print(list_of_images)
+
 output_dir = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
 
 def list2string(list_obj):
@@ -55,7 +55,6 @@ def threshold(pixel_list, dim=DIM, threshold_val=THRESHOLD):
             sum = sum + int(pixel[elem])
         
         threshold_elem.append(sum)
-    # print(f"Accumulation of values = {threshold_elem}")
     
     threshold = ""
     for num in threshold_elem:
@@ -102,14 +101,10 @@ def main():
     ### Loops through all hvs to encode and threshold
     for key in hyper_vectors:
         _pixel_hv = pixel_hvs.copy()
-
-        #print(f"HV {key}\nInput: {hyper_vectors[key]}")
         encode_list = encode(_pixel_hv, hyper_vectors[key])
-        #print(f"Output: {threshold(encode_list)}\n")
         
         hv = threshold(encode_list)
         hvs[key] = hv
-    print(hvs)
 
     with open(f"{output_dir}/hv_files_abc_{DIM}.txt", "w") as fn:
         fn.write(str(hvs))

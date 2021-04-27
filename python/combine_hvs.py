@@ -3,7 +3,6 @@
 
 import ast
 from hv_training import threshold
-import sys
 
 LETTERS = {
     "a": [], "b": [], "c": [], "d": [], "e": [],
@@ -14,7 +13,7 @@ LETTERS = {
     "z": []
     }
 
-DIM = 10
+DIM = 10000
 output_dir = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
 
 with open(f"{output_dir}/hv_files_abc_{DIM}.txt", "r") as fn:

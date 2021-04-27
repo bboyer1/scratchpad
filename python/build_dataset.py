@@ -1,5 +1,5 @@
 ### Bret Boyer
-### Build images for a, b, c with 3 fonts
+### Build images for all letters and fonts
 
 from PIL import Image, ImageDraw, ImageFont
 
