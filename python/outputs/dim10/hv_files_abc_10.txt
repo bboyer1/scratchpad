@@ -1,0 +1,1 @@
+{'a_Arial_28.jpg': '0111101110', 'c_Monaco_28.jpg': '0101101110', 'a_Verdana_28.jpg': '1101010110', 'c_Verdana_28.jpg': '0101010110', 'b_Verdana_28.jpg': '0111101110', 'b_Arial_28.jpg': '1111101110', 'b_Monaco_28.jpg': '0101110110', 'c_Arial_28.jpg': '0101101110', 'a_Monaco_28.jpg': '0101110110'}
