@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 24 12:58:33 2021
+# Process ID: 6932
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14924 C:\Users\angel\Documents\8405\VHDL Scripts\6\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/6/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/6/project.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_a.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_b.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_c.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/6/pixel_hypervectors.data}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_a.data} {C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_b.data} {C:/Users/angel/Documents/8405/VHDL Scripts/6/pictures_c.data} {C:/Users/angel/Documents/8405/VHDL Scripts/6/pixel_hypervectors.data}}

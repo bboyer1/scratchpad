@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 16 15:02:57 2021
+# Process ID: 7160
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3232 C:\Users\angel\Documents\8405\VHDL Scripts\4\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/4/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/images_ram.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/images_ram.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/4/lower_a.data}}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/main.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/main.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top main [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new/testbench.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new/testbench.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source main_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/im1/RAM[0]}} 
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/im1/RAM}} 
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/phr1/RAM}} 
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/phr1/RAM[0]}} 
+close_sim

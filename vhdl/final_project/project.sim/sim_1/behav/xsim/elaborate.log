@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3671] readline called past the end of file 'ramfile' [C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/images_ram.vhd:41]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.associative_memory_ram [associative_memory_ram_default]
+Compiling architecture fsm of entity xil_defaultlib.HDC_FSM [hdc_fsm_default]
+Compiling architecture enc of entity xil_defaultlib.encoding_module [\encoding_module(d=10000,i=1024,...]
+Compiling architecture super of entity xil_defaultlib.Supervised_controller [\Supervised_controller(d=10000,n...]
+Compiling architecture hamm of entity xil_defaultlib.Hamming_module [\Hamming_module(d=10000,num_of_h...]
+Compiling architecture behavior of entity xil_defaultlib.main [\main(num_class_images=22,num_as...]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav

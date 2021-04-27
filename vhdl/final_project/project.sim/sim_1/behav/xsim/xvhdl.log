@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/Hamming_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Hamming_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'

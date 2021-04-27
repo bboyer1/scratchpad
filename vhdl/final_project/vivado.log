@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 26 19:03:46 2021
+# Process ID: 4532
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19300 C:\Users\angel\Documents\8405\VHDL Scripts\8\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/8/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/8/project.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/angel/Documents/8405/VHDL Scripts/7 - opmode 0, test associative memory' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.gen/sources_1', nor could it be found using path 'C:/Users/angel/Documents/8405/VHDL Scripts/7 - opmode 0, test associative memory/project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1105.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/a.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/a_verdana.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/associative_memory.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/b.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/c.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/d.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/e.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/f.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/g.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/h.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/i.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/j.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/k.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/l.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/m.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/n.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/o.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/p.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/pixel_hypervectors.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/q.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/r.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/s.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/t.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/u.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/v.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/w.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/x.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/y.data}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/z.data}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/a.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/a_verdana.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/associative_memory.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/b.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/c.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/d.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/e.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/f.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/g.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/h.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/i.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/j.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/k.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/l.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/m.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/n.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/o.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/p.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/pixel_hypervectors.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/q.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/r.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/s.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/t.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/u.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/v.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/w.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/x.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/y.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/lowercase/z.data}}
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/ass_mem_python.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/pixel_hypervectors.data} {C:/Users/angel/Documents/8405/VHDL Scripts/8/OUR_RAM_DATA/a.data}}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim/ass_mem_python.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim/a.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/HDC_FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HDC_FSM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/Hamming_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Hamming_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/Supervised_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Supervised_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/associative_memory_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'associative_memory_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/encoding_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'encoding_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/pixel_hypervector_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pixel_hypervector_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3671] readline called past the end of file 'ramfile' [C:/Users/angel/Documents/8405/VHDL Scripts/8/project.srcs/sources_1/new/images_ram.vhd:41]
+ERROR: [VRFC 10-3215] character ''a'' is not in type 'bit' [/proj/xbuilds/2020.2_INT_0711_1805/installs/all_platforms/Vivado/2020.2/data/vhdl/src/std_2008/textio.vhd:39]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit main_tb in library work failed.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1105.977 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/angel/Documents/8405/VHDL Scripts/8/project.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1105.977 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 26 19:25:59 2021...

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 24 19:37:12 2021
+# Process ID: 1964
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9668 C:\Users\angel\Documents\8405\VHDL Scripts\6\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/6/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/6/project.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/6/OUR_RAM_DATA/pixel_hypervectors.data} {C:/Users/angel/Documents/8405/VHDL Scripts/6/OUR_RAM_DATA/lowercase/a_lower.data}}
+close_project
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/5 - working 5x7 algorithm/project.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/6/project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation

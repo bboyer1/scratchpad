@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 16 15:02:57 2021
+# Process ID: 7160
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3232 C:\Users\angel\Documents\8405\VHDL Scripts\4\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/4/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.379 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/images_ram.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/images_ram.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/4/lower_a.data}}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/main.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/main.vhd}}
+update_compile_order -fileset sources_1
+set_property top main [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new
+file mkdir {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new/testbench.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new/testbench.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim/lower_a.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sources_1/new/pixel_hypervector_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pixel_hypervector_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/4/project.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.main [main_default]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/angel/Documents/8405/VHDL -notrace
+couldn't read file "C:/Users/angel/Documents/8405/VHDL": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 16 16:02:16 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 1104.035 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/4/project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "main_tb_behav -key {Behavioral:sim_1:Functional:main_tb} -tclbatch {main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'main_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 1130.223 ; gain = 26.188
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/main_tb/uut/im1/RAM[0]}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/main_tb/uut/im1/RAM}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/main_tb/uut/phr1/RAM}} 
+WARNING: [Wavedata 42-489] Can't add object "/main_tb/uut/phr1/RAM" to the wave window because it has 10240000 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+INFO: [Wavedata 42-43] There are no traceable objects to add.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/main_tb/uut/phr1/RAM[0]}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 17 20:10:38 2021...

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1958001fs"></ZoomEndTime>
+      <Cursor1Time time="641000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="259"></NameColumnWidth>
+      <ValueColumnWidth column_width="331"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/main_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/OP_MODE" type="logic">
+      <obj_property name="ElementShortName">OP_MODE</obj_property>
+      <obj_property name="ObjectShortName">OP_MODE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/START_FLAG" type="logic">
+      <obj_property name="ElementShortName">START_FLAG</obj_property>
+      <obj_property name="ObjectShortName">START_FLAG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/INPUT_PIXEL" type="array">
+      <obj_property name="ElementShortName">INPUT_PIXEL[34:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_PIXEL[34:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/INPUT_IMAGES_DONE" type="logic">
+      <obj_property name="ElementShortName">INPUT_IMAGES_DONE</obj_property>
+      <obj_property name="ObjectShortName">INPUT_IMAGES_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ITEM_MEM_HV" type="array">
+      <obj_property name="ElementShortName">ITEM_MEM_HV[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ITEM_MEM_HV[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ASSOC_MEM_HV_IN" type="array">
+      <obj_property name="ElementShortName">ASSOC_MEM_HV_IN[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ASSOC_MEM_HV_IN[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ITEM_MEM_ADDR" type="array">
+      <obj_property name="ElementShortName">ITEM_MEM_ADDR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ITEM_MEM_ADDR[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ASSOC_MEM_ADDR" type="array">
+      <obj_property name="ElementShortName">ASSOC_MEM_ADDR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ASSOC_MEM_ADDR[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/IMAGE_ADDR" type="array">
+      <obj_property name="ElementShortName">IMAGE_ADDR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_ADDR[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/TRAINING_DONE" type="logic">
+      <obj_property name="ElementShortName">TRAINING_DONE</obj_property>
+      <obj_property name="ObjectShortName">TRAINING_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/RDY_NEXT_IMAGE" type="logic">
+      <obj_property name="ElementShortName">RDY_NEXT_IMAGE</obj_property>
+      <obj_property name="ObjectShortName">RDY_NEXT_IMAGE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ASSOC_MEM_WRITE" type="logic">
+      <obj_property name="ElementShortName">ASSOC_MEM_WRITE</obj_property>
+      <obj_property name="ObjectShortName">ASSOC_MEM_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/ASSOC_MEM_HV_OUT" type="array">
+      <obj_property name="ElementShortName">ASSOC_MEM_HV_OUT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ASSOC_MEM_HV_OUT[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/INF_DONE" type="logic">
+      <obj_property name="ElementShortName">INF_DONE</obj_property>
+      <obj_property name="ObjectShortName">INF_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/QUERY_RDY_OUT" type="logic">
+      <obj_property name="ElementShortName">QUERY_RDY_OUT</obj_property>
+      <obj_property name="ObjectShortName">QUERY_RDY_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/OUTPUT_LABEL" type="array">
+      <obj_property name="ElementShortName">OUTPUT_LABEL[5:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_LABEL[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_HV_LENGTH" type="other">
+      <obj_property name="ElementShortName">c_HV_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">c_HV_LENGTH</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_NUM_PIXELS" type="other">
+      <obj_property name="ElementShortName">c_NUM_PIXELS</obj_property>
+      <obj_property name="ObjectShortName">c_NUM_PIXELS</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_NUM_CLASS_IMAGES" type="other">
+      <obj_property name="ElementShortName">c_NUM_CLASS_IMAGES</obj_property>
+      <obj_property name="ObjectShortName">c_NUM_CLASS_IMAGES</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_NUM_ASSOC_HV" type="other">
+      <obj_property name="ElementShortName">c_NUM_ASSOC_HV</obj_property>
+      <obj_property name="ObjectShortName">c_NUM_ASSOC_HV</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_LABEL_BIT_LEN" type="other">
+      <obj_property name="ElementShortName">c_LABEL_BIT_LEN</obj_property>
+      <obj_property name="ObjectShortName">c_LABEL_BIT_LEN</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_IMAGE_COUNT_BIT_LEN" type="other">
+      <obj_property name="ElementShortName">c_IMAGE_COUNT_BIT_LEN</obj_property>
+      <obj_property name="ObjectShortName">c_IMAGE_COUNT_BIT_LEN</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_IM_ADDR_BIT_LEN" type="other">
+      <obj_property name="ElementShortName">c_IM_ADDR_BIT_LEN</obj_property>
+      <obj_property name="ObjectShortName">c_IM_ADDR_BIT_LEN</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/c_AM_ADDR_BIT_LEN" type="other">
+      <obj_property name="ElementShortName">c_AM_ADDR_BIT_LEN</obj_property>
+      <obj_property name="ObjectShortName">c_AM_ADDR_BIT_LEN</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

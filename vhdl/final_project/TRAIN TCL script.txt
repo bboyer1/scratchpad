@@ -1,0 +1,5 @@
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {1 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 30000 ns

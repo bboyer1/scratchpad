@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 25 16:18:04 2021
+# Process ID: 8684
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 C:\Users\angel\Documents\8405\VHDL Scripts\7\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/7/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/7/project.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/7/OUR_RAM_DATA/associative_memory.data}}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/associative_memory_ram.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/associative_memory_ram.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source main_tb.tcl
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 30000 ns
+relaunch_sim
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 30000 ns
+current_wave_config {Untitled 2}
+add_wave {{/main_tb/uut/HAMM_Module}} 
+restart
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 30000 ns
+relaunch_sim
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 30000 ns
+relaunch_sim
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+run 3000 ns
+close_sim

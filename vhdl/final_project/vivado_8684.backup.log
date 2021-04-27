@@ -1,0 +1,443 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 25 16:18:04 2021
+# Process ID: 8684
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 C:\Users\angel\Documents\8405\VHDL Scripts\7\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/7/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/7/project.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/angel/Documents/8405/VHDL Scripts/6' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.gen/sources_1', nor could it be found using path 'C:/Users/angel/Documents/8405/VHDL Scripts/6/project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/7/OUR_RAM_DATA/associative_memory.data}}
+close [ open {C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/associative_memory_ram.vhd} w ]
+add_files {{C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/associative_memory_ram.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/a_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/k_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/y_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/r_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/d_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/h_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/u_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/o_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/g_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/b_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/z_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/j_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/v_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/c_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/n_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/w_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/m_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/f_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/i_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/q_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/s_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/x_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/l_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/e_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/p_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/t_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/associative_memory.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/HDC_FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HDC_FSM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/Hamming_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Hamming_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/Supervised_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Supervised_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/associative_memory_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'associative_memory_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/encoding_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'encoding_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/pixel_hypervector_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pixel_hypervector_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.associative_memory_ram [associative_memory_ram_default]
+Compiling architecture fsm of entity xil_defaultlib.HDC_FSM [hdc_fsm_default]
+Compiling architecture enc of entity xil_defaultlib.encoding_module [\encoding_module(d=10000,i=1024,...]
+Compiling architecture super of entity xil_defaultlib.Supervised_controller [\Supervised_controller(d=10000,n...]
+Compiling architecture hamm of entity xil_defaultlib.Hamming_module [\Hamming_module(d=10000,num_of_h...]
+Compiling architecture behavior of entity xil_defaultlib.main [main_default]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/angel/Documents/8405/VHDL -notrace
+couldn't read file "C:/Users/angel/Documents/8405/VHDL": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 25 17:04:01 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 1109.816 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "main_tb_behav -key {Behavioral:sim_1:Functional:main_tb} -tclbatch {main_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source main_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'main_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 1142.902 ; gain = 33.086
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+force1
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+force2
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+force3
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+force4
+run 30000 ns
+run: Time (s): cpu = 00:00:17 ; elapsed = 00:01:39 . Memory (MB): peak = 1470.480 ; gain = 327.578
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/a_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/k_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/y_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/r_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/d_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/h_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/u_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/o_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/g_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/b_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/z_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/j_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/v_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/c_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/n_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/w_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/m_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/f_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/i_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/q_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/s_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/x_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/l_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/e_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/p_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/t_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/associative_memory.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.associative_memory_ram [associative_memory_ram_default]
+Compiling architecture fsm of entity xil_defaultlib.HDC_FSM [hdc_fsm_default]
+Compiling architecture enc of entity xil_defaultlib.encoding_module [\encoding_module(d=10000,i=1024,...]
+Compiling architecture super of entity xil_defaultlib.Supervised_controller [\Supervised_controller(d=10000,n...]
+Compiling architecture hamm of entity xil_defaultlib.Hamming_module [\Hamming_module(d=10000,num_of_h...]
+Compiling architecture behavior of entity xil_defaultlib.main [main_default]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 1470.480 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 1470.480 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:22 . Memory (MB): peak = 1470.480 ; gain = 0.000
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+force5
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+force6
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+force7
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+force8
+run 30000 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1509.973 ; gain = 39.492
+INFO: [Common 17-344] 'run' was cancelled
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/main_tb/uut/HAMM_Module}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1509.973 ; gain = 0.000
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+force9
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+force10
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+force11
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+force12
+run 30000 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1683.828 ; gain = 173.855
+INFO: [Common 17-344] 'run' was cancelled
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/a_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/k_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/y_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/r_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/d_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/h_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/u_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/o_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/g_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/b_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/z_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/j_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/v_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/c_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/n_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/w_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/m_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/f_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/i_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/q_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/s_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/x_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/l_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/e_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/p_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/t_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/associative_memory.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.associative_memory_ram [associative_memory_ram_default]
+Compiling architecture fsm of entity xil_defaultlib.HDC_FSM [hdc_fsm_default]
+Compiling architecture enc of entity xil_defaultlib.encoding_module [\encoding_module(d=10000,i=1024,...]
+Compiling architecture super of entity xil_defaultlib.Supervised_controller [\Supervised_controller(d=10000,n...]
+Compiling architecture hamm of entity xil_defaultlib.Hamming_module [\Hamming_module(d=10000,num_of_h...]
+Compiling architecture behavior of entity xil_defaultlib.main [main_default]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 2458.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 2458.098 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 2458.098 ; gain = 0.000
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+force13
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+force14
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+force15
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+force16
+run 30000 ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2458.098 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'main_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/pixel_hypervectors.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/a_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/k_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/y_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/r_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/d_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/h_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/u_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/o_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/g_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/b_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/z_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/j_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/v_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/c_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/n_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/w_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/m_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/f_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/i_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/q_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/s_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/x_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/l_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/e_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/p_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/t_lower.data'
+INFO: [SIM-utils-43] Exported 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim/associative_memory.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj main_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/angel/Documents/8405/VHDL Scripts/7/project.srcs/sources_1/new/images_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'images_ram'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/angel/Documents/8405/VHDL Scripts/7/project.sim/sim_1/behav/xsim'
+"xelab -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d6866c250c924b68ae4178f8b400e28e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.pixel_hypervector_ram [pixel_hypervector_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.images_ram [images_ram_default]
+Compiling architecture behavior of entity xil_defaultlib.associative_memory_ram [associative_memory_ram_default]
+Compiling architecture fsm of entity xil_defaultlib.HDC_FSM [hdc_fsm_default]
+Compiling architecture enc of entity xil_defaultlib.encoding_module [\encoding_module(d=10000,i=1024,...]
+Compiling architecture super of entity xil_defaultlib.Supervised_controller [\Supervised_controller(d=10000,n...]
+Compiling architecture hamm of entity xil_defaultlib.Hamming_module [\Hamming_module(d=10000,num_of_h...]
+Compiling architecture behavior of entity xil_defaultlib.main [main_default]
+Compiling architecture bench of entity xil_defaultlib.main_tb
+Built simulation snapshot main_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 2458.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 2458.098 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:24 . Memory (MB): peak = 2458.098 ; gain = 0.000
+add_force {/main_tb/CLK} -radix bin {1 0ns} {0 500ps} -repeat_every 1000ps
+force17
+add_force {/main_tb/RST} -radix bin {0 0ns 1 5ns 0 10ns}
+force18
+add_force {/main_tb/OP_MODE} -radix bin {0 0ns}
+force19
+add_force {/main_tb/START_FLAG} -radix bin {1 50ns}
+force20
+run 3000 ns
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2458.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 25 17:29:13 2021...

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 21 18:51:27 2021
+# Process ID: 10744
+# Current directory: C:/Users/angel/Documents/8405/VHDL Scripts/test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7332 C:\Users\angel\Documents\8405\VHDL Scripts\test\project.xpr
+# Log file: C:/Users/angel/Documents/8405/VHDL Scripts/test/vivado.log
+# Journal file: C:/Users/angel/Documents/8405/VHDL Scripts/test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/angel/Documents/8405/VHDL Scripts/test/project.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/4/lower_a.data}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/angel/Documents/8405/VHDL Scripts/4/lower_a.data}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/angel/Documents/8405/VHDL Scripts/test/pixel_hypervectors.data}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/angel/Documents/8405/VHDL Scripts/test/pixel_hypervectors.data}}
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/test/pictures.data} {C:/Users/angel/Documents/8405/VHDL Scripts/test/pixel_hypervectors.data}}
+launch_simulation
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source main_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/phr1/RAM}} 
+current_wave_config {Untitled 1}
+add_wave {{/main_tb/uut/im1/RAM}} 
+add_files -norecurse {{C:/Users/angel/Documents/8405/VHDL Scripts/test/Hamming_module.vhd} {C:/Users/angel/Documents/8405/VHDL Scripts/test/Supervised_controller.vhd} {C:/Users/angel/Documents/8405/VHDL Scripts/test/encoding_module.vhd} {C:/Users/angel/Documents/8405/VHDL Scripts/test/HDC_FSM.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
