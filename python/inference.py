@@ -5,7 +5,7 @@ from hv_training import encode, convert_img, threshold
 import sys, re
 
 DIM = 10000
-dir_path = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
+dir_path = f"outputs/dim{DIM}"
 
 def xor(bin_1, bin_2):
     return int(bin_1, 2) ^ int(bin_2, 2)

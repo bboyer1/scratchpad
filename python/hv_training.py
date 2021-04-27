@@ -11,11 +11,11 @@ DIM = 10000 # Length of HV
 THRESHOLD = 513 # 32x32 = 1024pixels, then 512+1 for floor division
 
 # Pull images from directory
-directory = "train_img_3"
-path = f"/Users/Bret/Desktop/text-to-image/src/{directory}"
+directory = "training_images"
+path = f"{directory}"
 list_of_images = listdir(path)
 
-output_dir = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
+output_dir = f"outputs/dim{DIM}"
 
 def list2string(list_obj):
     """

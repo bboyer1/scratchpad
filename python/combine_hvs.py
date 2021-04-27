@@ -14,7 +14,7 @@ LETTERS = {
     }
 
 DIM = 10000
-output_dir = f"/Users/Bret/Desktop/text-to-image/src/outputs/dim{DIM}"
+output_dir = f"outputs/dim{DIM}"
 
 with open(f"{output_dir}/hv_files_abc_{DIM}.txt", "r") as fn:
     hv_dict = fn.readline()
@@ -27,9 +27,6 @@ for letter in LETTERS:
             _file.append(hv_dict[key])
             LETTERS[letter] = _file
 
-print(LETTERS)
-
 with open(f"{output_dir}/Encoded_dim_{DIM}.data", "w") as fe:
     for key in LETTERS:
-        print(f"{key}: {threshold(LETTERS[key], dim=DIM, threshold_val=2)}")
-        fe.write(f"{key}: {threshold(LETTERS[key],dim=DIM, threshold_val=2)}\n")
+        fe.write(f"{key}: {threshold(LETTERS[key],dim=DIM, threshold_val=12)}\n")
