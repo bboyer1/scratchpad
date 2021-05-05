@@ -7,11 +7,14 @@ import sys, re
 DIM = 10000
 dir_path = f"outputs/dim{DIM}"
 
+
 def xor(bin_1, bin_2):
     return int(bin_1, 2) ^ int(bin_2, 2)
 
+
 def just_the_1s(bin_str):
     return len(re.findall("1", bin_str))
+
 
 def main():
     # Take in an image
@@ -45,5 +48,5 @@ def main():
     print(closest_dist)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
